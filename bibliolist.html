@@ -13,7 +13,7 @@
   <!-- Icons -->
   <link rel="stylesheet" href="assets/vendor/nucleo/css/nucleo.css" type="text/css">
   <link rel="stylesheet" href="assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" type="text/css">
-  <!-- Argon CSS -->
+  <!-- Ianua CSS -->
   <link rel="stylesheet" href="assets/css/ianua.css?v=1.2.0" type="text/css">
 </head>
 
@@ -32,27 +32,54 @@
     <div class="container mt--8 pb-5">
       
       
-      <div class="row justify-content-center">
-        <div class="col-lg-5 col-md-7">
+      <div class="
+                  justify-content-center">
+        <div>
           <div class="card bg-secondary border-0 mb-0">
             <div class="card-header bg-transparent pb-5">
-              <h1>Sprechstunden</h1>
+              <h1>Bibliothek</h1>
+            
+              <div class="card-body px-lg-5 py-lg-5">
+                
+                
+                <form method="post" action="#">
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Buch, Autor, ISBN..." aria-label="Buch, Autor, ISBN..." aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-primary" type="button" id="button-addon2">Suchen</button>
+                    </div>
+                  </div>
+                </form>
+                
+                <div class="row justify-content-md-center ">
+                  <a type="button" class="btn btn-default" href="bibliobuch.html">
+                    <span>Mechanik 1</span>
+                    <span class="badge badge-success"><i class=" fas fa-thumbs-up"></i></span>
+                  </a>
+
+                  <a type="button" class="btn btn-default" href="bibliobuch.html">
+                    <span>Anatomie 2</span>
+                    <span class="badge badge-danger"><i class="fas fa-hourglass-half"></i></span>
+                  </a>
+
+                  <a type="button" class="btn btn-default" href="bibliobuch.html">
+                    <span>Lineare Algebra 1</span>
+                    <span class="badge badge-success"><i class=" fas fa-thumbs-up"></i></span>
+                  </a>
+                  <a type="button" class="btn btn-default" href="bibliobuch.html">
+                    <span>Chemie f. Ingenieur 2</span>
+                    <span class="badge badge-success"><i class=" fas fa-thumbs-up"></i></span>
+                  </a>
+                </div>
+                
+                
+                
+                
+                
+              </div>
+              
+              
             </div>
-            
-            
-            <div class="card-body px-lg-5 py-lg-5">
-              <h2>Dr. Frau Gudrun Morasch</h2>
-              <h4>Mo. 23.02 - von 11<small>:30</small> bis 12<small>:30</small>.</h4>
-              <h4>Mo. 23.02 - von 11<small>:30</small> bis 12<small>:30</small>.</h4>
-              <h4>Mo. 23.02 - von 11<small>:30</small> bis 12<small>:30</small>.</h4>
-              <h4>Mo. 23.02 - von 11<small>:30</small> bis 12<small>:30</small>.</h4>
-              <h4>Mo. 23.02 - von 11<small>:30</small> bis 12<small>:30</small>.</h4>
-              <h4>Mo. 23.02 - von 11<small>:30</small> bis 12<small>:30</small>.</h4>
-              <h4>Mo. 23.02 - von 11<small>:30</small> bis 12<small>:30</small>.</h4>
-              <h4>Mo. 23.02 - von 11<small>:30</small> bis 12<small>:30</small>.</h4>
-            </div>
-            
-            
           </div>
         </div>
       </div>
@@ -66,13 +93,13 @@
       <div class="row align-items-center justify-content-xl-between">
         <div class="col-xl-6">
           <div class="copyright text-center text-xl-left text-muted">
-            © 2020 <a href="#" class="font-weight-bold ml-1" target="_blank">ianuaProjekt</a>
+            © 2020 <a href="./" class="font-weight-bold ml-1" >ianuaProjekt</a>
           </div>
         </div>
         <div class="col-xl-6">
           <ul class="nav nav-footer justify-content-center justify-content-xl-end">
             <li class="nav-item">
-              <a href="#" class="nav-link" target="_blank">About the project</a>
+              <a href="./" class="nav-link" target="_blank">About the project</a>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link" target="_blank">About me</a>
@@ -84,6 +111,8 @@
   </footer>
   <!-- Argon Scripts -->
   <!-- Core -->
+  
+  
   <script src="../assets/vendor/jquery/dist/jquery.min.js"></script>
   <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="../assets/vendor/js-cookie/js.cookie.js"></script>

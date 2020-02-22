@@ -13,8 +13,9 @@
   <!-- Icons -->
   <link rel="stylesheet" href="assets/vendor/nucleo/css/nucleo.css" type="text/css">
   <link rel="stylesheet" href="assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" type="text/css">
-  <!-- Argon CSS -->
+  <!-- Ianua CSS -->
   <link rel="stylesheet" href="assets/css/ianua.css?v=1.2.0" type="text/css">
+  <link rel="stylesheet" href="assets/css/calendar.css" type="text/css">
 </head>
 
 <body class="bg-default g-sidenav-show g-sidenav-pinned">
@@ -32,64 +33,32 @@
     <div class="container mt--8 pb-5">
       
       
-      <div class="row justify-content-center">
-        <div class="col-lg-5 col-md-7">
+      <div class="
+                  justify-content-center">
+        <div>
           <div class="card bg-secondary border-0 mb-0">
             <div class="card-header bg-transparent pb-5">
               <h1>BlankPage</h1>
             
-            
-              <div class="table-responsive">
-              <!-- Projects table -->
-                <table class="table align-items-center table-flush">
-                  <thead class="thead-light">
-                    <tr>
-                      <th scope="col">Zeit</th>
-                      <th scope="col">23.02.</th>
-                      <th scope="col">24.02.</th>
-                      <th scope="col">25.02.</th>
-                      <th scope="col">26.02.</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">
-                        7<small>:30</small>-8<small>:45</small>.
-                      </th>
-                      <td>
-                        <a href="./" class="btn btn-outline-secondary"><i class="fas fa-tshirt text-success mr-3"></i>Frei</a>
-                      </td>
-                      <td>
-                        <a href="./" class="btn btn-outline-secondary"><i class="fas fa-tshirt text-success mr-3"></i>Frei</a>
-                      </td>
-                      <td>
-                        <a href="./" class="btn btn-outline-secondary"><i class="fas fa-tshirt text-success mr-3"></i>Frei</a>
-                      </td>
-                      <td>
-                        <a href="./" class="btn btn-outline-secondary"><i class="fas fa-tshirt text-success mr-3"></i>Frei</a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <th scope="row">
-                        7<small>:30</small>-8<small>:45</small>.
-                      </th>
-                      <td>
-                        <button class="btn btn-icon btn-secondary" type="button" disabled><i class="fas fa-tshirt text-default mr-3"></i>z319</button>
-                      </td>
-                      <td>
-                        <a href="./" class="btn btn-outline-secondary"><i class="fas fa-tshirt text-success mr-3"></i>Frei</a>
-                      </td>
-                      <td>
-                        <a href="./" class="btn btn-outline-secondary"><i class="fas fa-tshirt text-success mr-3"></i>Frei</a>
-                      </td>
-                      <td>
-                        <a href="./" class="btn btn-outline-secondary"><i class="fas fa-tshirt text-success mr-3"></i>Frei</a>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
+              <div class="card-body px-lg-5 py-lg-5">
+                
+                <!-- Git Repo: https://github.com/Russian60/flex-calendar -->
+                <div ng-app="app">
+                  <div ng-controller="MainController">
+                    <h1> 
+                      <span class="l">Flex</span><span class="r">Calendar</span>
+                    </h1>
+                    <p>An Elegant Calendar Built With Angular.js</p>
+                    <div class="wrapp">
+                      <flex-calendar options="options" events="events"></flex-calendar>
+                    </div>
+                    <br />
+                  </div>
+                </div>
+                
+                
               </div>
-            
+              
               
             </div>
           </div>
@@ -105,13 +74,13 @@
       <div class="row align-items-center justify-content-xl-between">
         <div class="col-xl-6">
           <div class="copyright text-center text-xl-left text-muted">
-            © 2020 <a href="https://www.creative-tim.com" class="font-weight-bold ml-1" target="_blank">ianuaProjekt</a>
+            © 2020 <a href="./" class="font-weight-bold ml-1" >ianuaProjekt</a>
           </div>
         </div>
         <div class="col-xl-6">
           <ul class="nav nav-footer justify-content-center justify-content-xl-end">
             <li class="nav-item">
-              <a href="#" class="nav-link" target="_blank">About the project</a>
+              <a href="./" class="nav-link" target="_blank">About the project</a>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link" target="_blank">About me</a>
@@ -123,8 +92,10 @@
   </footer>
   <!-- Argon Scripts -->
   <!-- Core -->
+  
+  
   <script src="../assets/vendor/jquery/dist/jquery.min.js"></script>
-  <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="../assets/vendor/js-cookie/js.cookie.js"></script>
   <script src="../assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js"></script>
   <script src="../assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js"></script>

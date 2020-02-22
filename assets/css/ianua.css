@@ -225,7 +225,7 @@ a:not([href])
 {
     text-decoration: none; 
 
-    color: inherit;
+    /* color: inherit; */
 }
 a:not([href]):hover
 {
@@ -1558,9 +1558,9 @@ pre code
     }
     .col-md-7
     {
-        max-width: 58.33333%; 
+        max-width: 100%; 
 
-        flex: 0 0 58.33333%;
+        flex: 0 0 100%;
     }
     .col-md-8
     {
@@ -18321,6 +18321,7 @@ a.text-darker:focus
 .btn:not(:last-child)
 {
     margin-right: .5rem;
+    margin-bottom: .5rem;
 }
 .btn i:not(:first-child),
 .btn svg:not(:first-child)
@@ -23768,6 +23769,7 @@ textarea[resize='horizontal']
 {
     color: #8898aa; 
     background-color: #f6f9fc;
+    text-align: center;
 }
 .table .thead-light th a
 {
